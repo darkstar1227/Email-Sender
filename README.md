@@ -1,5 +1,10 @@
 # Email Sender
 - This project provide several email sending python code
+- This project are still testing
+-[x] outlook
+-[] gmail
+-[] yahoo
+-[] Total readme
 
 ## Make a csv or excel
 - Make a csv or Excel to record all names and emails.
@@ -24,7 +29,7 @@
     ![app name](images/app-name.png)
 - Get the password
     ![password](images/password.png)
-    ps. The image is a fake password.
+    ps. This image is a fake password.
 
 
 
