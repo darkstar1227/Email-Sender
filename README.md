@@ -19,6 +19,7 @@
 ## Custom html
 - As the title, use your own email template.
 - I have provided a sample with url and document in template.html, rewrite it as you want.
+- However, if like to remove the {receiver_name}, please adjust the python code
 
 ## Special Setting
 ### Gmail
