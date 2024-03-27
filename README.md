@@ -1,10 +1,10 @@
 # Email Sender
 - This project provide several email sending python code
 - This project are still testing
--[x] outlook
--[] gmail
--[] yahoo
--[] Total readme
+    - [x] outlook
+    - [ ] gmail
+    - [ ] yahoo
+    - [ ] Total readme
 
 ## Make a csv or excel
 - Make a csv or Excel to record all names and emails.
