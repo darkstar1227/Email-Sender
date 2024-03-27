@@ -4,6 +4,8 @@
     - [x] outlook
     - [ ] gmail
     - [ ] yahoo
+    - [ ] office365
+    - [ ] personal mail server
     - [ ] Total readme
 
 ## Make a csv or excel
