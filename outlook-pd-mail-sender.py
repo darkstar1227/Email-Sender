@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import smtplib
 from email.mime.text import MIMEText
@@ -6,12 +7,22 @@ from cfp import EmailSender
 
 sender=EmailSender('config.ini')
 
-# 讀取 Excel 文件
-df = pd.read_excel('Test.xlsx')
-print('read excel success')
-print(df)
-print('start sending email')
+file_name=input('Enter the file name: ')
 
+# Read the file
+if not os.path.isfile(file_name):
+  print('File not found')
+  exit()
+
+if file_name.endswith('.xlsx'):
+  df = pd.read_excel(file_name)
+elif file_name.endswith('.csv'):
+  df = pd.read_csv(file_name)
+else:
+  print('File type not supported')
+  exit()
+  
+print('start sending email')
 with open(r'template.html', 'r', encoding='utf-8') as f:
   template = f.read()
 print('template read success')
