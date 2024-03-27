@@ -10,7 +10,7 @@ sender=EmailSender('config.ini')
 file_name=input('Enter the file name: ')
 
 # Read the file
-if notos.path.isfile(file_name):
+if not os.path.isfile(file_name):
   print('File not found')
   exit()
 
